@@ -80,7 +80,6 @@
         <module>presto-record-decoder</module>
         <module>presto-kafka</module>
         <module>presto-redis</module>
-        <module>presto-accumulo</module>
         <module>presto-cassandra</module>
         <module>presto-blackhole</module>
         <module>presto-memory</module>
@@ -129,7 +128,6 @@
         <module>presto-matching</module>
         <module>presto-memory-context</module>
         <module>presto-proxy</module>
-        <module>presto-kudu</module>
         <module>presto-elasticsearch</module>
     </modules>
 

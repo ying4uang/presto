@@ -382,6 +382,7 @@ class StatementClientV1
             try {
                 response = JsonResponse.execute(QUERY_RESULTS_CODEC, httpClient, request);
             }
+
             catch (RuntimeException e) {
                 cause = e;
                 continue;

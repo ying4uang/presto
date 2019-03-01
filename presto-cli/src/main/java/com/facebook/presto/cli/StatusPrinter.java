@@ -125,7 +125,9 @@ Spilled: 20GB
                         updateScreen(warningsPrinter);
                         lastPrint = System.nanoTime();
                     }
-
+                    System.out.println("before advance=======");
+                    console.resetScreen();
+                    System.out.println("cleaning=======");
                     // fetch next results (server will wait for a while if no data)
                     client.advance();
                 }
@@ -146,6 +148,7 @@ Spilled: 20GB
     {
         console.repositionCursor();
         printQueryInfo(client.currentStatusInfo(), warningsPrinter);
+        System.out.println("upddddating screen ---------");
     }
 
     public void printFinalInfo()

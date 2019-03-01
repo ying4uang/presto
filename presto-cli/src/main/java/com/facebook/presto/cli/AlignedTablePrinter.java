@@ -94,7 +94,7 @@ public class AlignedTablePrinter
 
             for (int i = 0; i < columns; i++) {
                 if (i > 0) {
-                    writer.append('+');
+                    writer.append('&');
                 }
                 writer.append(repeat("-", maxWidth[i] + 2));
             }
